@@ -35,6 +35,8 @@ Which will result in comment:
 ### Inputs
 - `issue` - An issue key to add a comment for
 - `comment` - Comment
+- `role_name` - JIRA Role Name
+- `role_id` - JIRA Role ID
 
 ### Outputs
 - None

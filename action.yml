@@ -10,6 +10,12 @@ inputs:
   comment:
     description: Comment
     required: true
+  role_name:
+    description: JIRA Role Name
+    required: false
+  role_id:
+    description: JIRA Role ID
+    required: false
 runs:
   using: 'node12'
   main: './dist/index.js'

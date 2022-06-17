@@ -37,7 +37,9 @@ async function exec () {
 function parseArgs () {
   return {
     issue: core.getInput('issue'),
-    comment: core.getInput('comment')
+    comment: core.getInput('comment'),
+    role_name: core.getInput('role_name'),
+    role_id: core.getInput('role_id'),
   }
 }
 
